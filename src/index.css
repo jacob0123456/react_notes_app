@@ -11,84 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.header{
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container{
+
+.container {
   max-width: 960px;
-  margin-right:auto;
-  margin-left:auto;
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
-.notes-list{
+
+.notes-list {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.note{
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
- white-space: pre-wrap;
+
+.note {
+  background-image: linear-gradient(to top, #0b9ea3 0%, #3cabba 100%);
+  white-space: pre-wrap;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  justify-content: space-between;
 }
-.note-footer{
+
+.note-footer {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-textarea{
-  border:none;
+
+textarea {
+  border: none;
   resize: none;
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  background-image: linear-gradient(to top, #0b99a3 0%, #3cb2ba 100%);
 }
-.note.new{
-  background-color: aquamarine;
+
+.note.new {
+  background-color: rgb(127, 255, 255);
 }
-textarea:focus{
+
+textarea:focus {
   outline: none;
 }
-.save{
+
+.save {
   background-color: rgb(233, 233, 233);
-  border:none;
+  border: none;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
-  border:solid 4px #308d46;
+  border: solid 4px #30828d;
 }
-.save:hover{
-  background-color: #308d46;
+
+.save:hover {
+  background-color: #307a8d;
   cursor: pointer;
 }
-.delete-icon{
+
+.delete-icon {
   cursor: pointer;
 }
-.search{
+
+.search {
   display: flex;
   align-items: center;
   background-color: rgb(233, 233, 233);
   border-radius: 10px;
   padding: 1.5em;
   margin-bottom: 10px;
-  border:solid 4px #308d46;
+  border: solid 4px #30778d;
 }
-.search input{
+
+.search input {
   border: none;
   background-color: rgb(233, 233, 233);
-  
+
 }
-.search input:focus{
+
+.search input:focus {
   outline: none;
 }
-.dark-mode{
+
+.dark-mode {
   background-color: black;
   min-height: 100vh;
 }
-.dark-mode h1{
+
+.dark-mode h1 {
   color: white;
 }
