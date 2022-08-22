@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React from 'react'
 import {MdDeleteForever} from 'react-icons/md'
 {/*this is our note card component
